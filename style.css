@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #ECFAFB;
+  width: 100%;
+  height: 200px;
+
+}
+.fotologo{
+  background-image: url(boolean.png);
+  background-size: cover;
+  border:10px solid #ECFAFB;
+  width: 20%;
+  height: 200px;
+  float:left;
+
+}
+header .brand{
+  width: 75%;
+  height:200px;
+  padding-top: 20px;
+  font-size: 60px;
+  color: 	#81CBC8;
+  text-align: center;
+  margin-left: 50px;
+  float:left;
+}
+header .stella>img{
+  width: 200px;
+  height: 100px;
+}
+
+.clear{
+  clear: both;
+}
+
+.container {
+  border: 1px solid black;
+  width: 100%;
+  height: 100px;
+
+  }
+  .container *{
+    width: calc(100%/6);
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    padding-top: 50px;
+
+  }
+
+
+  .secondocontainer{
+    width: 100%;
+    height: 600px;
+    background-image: url(MILANO.JPG);
+    box-sizing: cover;
+  }
+
+@media and screen (min-width: 480px){
+  background-color: #ECFAFB;{
+  width: auto;
+  height: 200px;
+}
+  .fotologo{
+    background-image: none;
+    background-size: 0;
+    border:10px solid #ECFAFB;
+    width: 100%;
+    height: 200px;
+
+  }
+  header .stella{
+    display: none;
+
+  }
+  header .brand{
+    width: 100%;
+    height:200px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: 	#81CBC8;
+    text-align: center;
+    margin-left: 10px;
+    float:left;
+  }
+
+.container *{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  padding-top: 50px;
+
+
+}
+.menu-element{
+  width: 100%;
+}
