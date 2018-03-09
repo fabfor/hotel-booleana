@@ -31,7 +31,6 @@ header .brand{
 }
 header .stella>img{
   width: 200px;
-  height: 100px;
 }
 
 .clear{
@@ -39,7 +38,7 @@ header .stella>img{
 }
 
 .container {
-  border: 1px solid black;
+
   width: 100%;
   height: 100px;
 
@@ -51,6 +50,7 @@ header .stella>img{
     vertical-align: middle;
     float: left;
     padding-top: 50px;
+    color: #00BBF0;
 
   }
 
@@ -62,7 +62,7 @@ header .stella>img{
     box-sizing: cover;
   }
 
-@media and screen (min-width: 480px){
+@media screen and (max-width: 480px){
   background-color: #ECFAFB;{
   width: auto;
   height: 200px;
@@ -75,9 +75,8 @@ header .stella>img{
     height: 200px;
 
   }
-  header .stella{
-    display: none;
-
+  header .stella>img{
+    width: 200px;
   }
   header .brand{
     width: 100%;
@@ -102,4 +101,5 @@ header .stella>img{
 }
 .menu-element{
   width: 100%;
+}
 }
